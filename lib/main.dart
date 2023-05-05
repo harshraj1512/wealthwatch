@@ -6,6 +6,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 
 import 'data/model/add_date.dart';
 
+//this is my main 
 void main() async {
   await Hive.initFlutter();
   Hive.registerAdapter(AdddataAdapter());
