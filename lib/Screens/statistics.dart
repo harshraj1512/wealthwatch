@@ -73,7 +73,7 @@ class _StatisticsState extends State<Statistics> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
                               color: index_color == index
-                                  ? Color.fromARGB(255, 47, 125, 121)
+                                  ? Colors.lightBlueAccent
                                   : Colors.white,
                             ),
                             alignment: Alignment.center,
@@ -148,7 +148,7 @@ class _StatisticsState extends State<Statistics> {
                 style: TextStyle(
                   fontWeight: FontWeight.w600,
                   fontSize: 19,
-                  color: a[index].IN == 'Income' ? Colors.green : Colors.red,
+                  color: a[index].IN == 'Income' ? Colors.blueAccent : Colors.red,
                 ),
               ),
             );

@@ -110,7 +110,7 @@ class _HomeState extends State<Home> {
         style: TextStyle(
           fontWeight: FontWeight.w600,
           fontSize: 19,
-          color: history.IN == 'Income' ? Colors.green : Colors.red,
+          color: history.IN == 'Income' ? Colors.blueAccent : Colors.red,
         ),
       ),
     );
@@ -125,7 +125,7 @@ class _HomeState extends State<Home> {
               width: double.infinity,
               height: 240,
               decoration: BoxDecoration(
-                color: Color(0xff368983),
+                color: Colors.blueAccent,
                 borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(20),
                   bottomRight: Radius.circular(20),
@@ -194,7 +194,7 @@ class _HomeState extends State<Home> {
                   spreadRadius: 6,
                 ),
               ],
-              color: Color.fromARGB(255, 47, 125, 121),
+              color: Colors.blueAccent,
               borderRadius: BorderRadius.circular(15),
             ),
             child: Column(
@@ -246,7 +246,7 @@ class _HomeState extends State<Home> {
                         children: [
                           CircleAvatar(
                             radius: 13,
-                            backgroundColor: Color.fromARGB(255, 85, 145, 141),
+                            backgroundColor: Colors.lightBlueAccent,
                             child: Icon(
                               Icons.arrow_downward,
                               color: Colors.white,
@@ -259,7 +259,7 @@ class _HomeState extends State<Home> {
                             style: TextStyle(
                               fontWeight: FontWeight.w500,
                               fontSize: 16,
-                              color: Color.fromARGB(255, 216, 216, 216),
+                              color: Colors.white,
                             ),
                           ),
                         ],
@@ -268,7 +268,7 @@ class _HomeState extends State<Home> {
                         children: [
                           CircleAvatar(
                             radius: 13,
-                            backgroundColor: Color.fromARGB(255, 85, 145, 141),
+                            backgroundColor: Colors.lightBlueAccent,
                             child: Icon(
                               Icons.arrow_upward,
                               color: Colors.white,
@@ -281,7 +281,7 @@ class _HomeState extends State<Home> {
                             style: TextStyle(
                               fontWeight: FontWeight.w500,
                               fontSize: 16,
-                              color: Color.fromARGB(255, 216, 216, 216),
+                              color: Colors.white,
                             ),
                           ),
                         ],
