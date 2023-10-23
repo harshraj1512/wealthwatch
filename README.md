@@ -1,17 +1,10 @@
 # wealthwatch
 
-A new Flutter project.
+Welcome to the WealthWatch repository! WealthWatch is a powerful and user-friendly finance management app designed to help you take control of your daily expenses. With this app, you can effortlessly track and manage your spending across various categories, such as food, travel, and groceries. WealthWatch provides insightful graphical representations of your expenses on a daily, monthly, and yearly basis, enabling you to make informed financial decisions. Whether you're looking to budget better or achieve your financial goals, WealthWatch is your trusted companion for navigating your financial journey. Explore the repository to access the app's source code and start mastering your finances today.
 
-## Getting Started
+## walkthrough to the APP
+https://github.com/harshraj1512/wealthwatch/assets/80125708/12353a7e-4f97-406f-9c8a-890a5fb01691
 
-This project is a starting point for a Flutter application.
+## Link to the APP
+[APP Link](https://drive.google.com/file/d/12PLkIdlzfz6k9gvPU0y9fZrnl_602mPh/view?usp=sharing)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-## Title
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
