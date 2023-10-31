@@ -6,11 +6,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 
 import 'data/model/add_date.dart';
 
-<<<<<<< HEAD
-//hello this is my coding 
-//commting changes on 06-05-2023
-=======
->>>>>>> parent of 3d12188 (first commit)
+
 void main() async {
   await Hive.initFlutter();
   Hive.registerAdapter(AdddataAdapter());
